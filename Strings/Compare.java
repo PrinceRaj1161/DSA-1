@@ -1,0 +1,24 @@
+public class Compare 
+{
+    public static void main(String args[])
+    {
+        String s1="Tony";
+        String s2="Tony";
+        String s3=new String("Tony");
+        if(s1==s2)
+        {
+            System.out.println("s1 and s2 are equal");
+        }
+        if(s1==s3)
+        {
+            System.out.println("s1 and s3 are equal");
+        }
+        //Only the first if statement would give output. 
+        // For the second one we use equals.
+
+        if(s1.equals(s3))
+        {
+            System.out.println("The output is here");
+        }
+    }
+}
